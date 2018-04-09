@@ -27,6 +27,7 @@ export class Rate extends Component {
         <div className={`Rate-change ${changeClass}`}>
           <img src={icon} className="Rate-change-icon"/>
           {Math.round(coin.change * 100) / 100}
+          %
         </div>
         <div className="Rate-price">
           {coin.price}
