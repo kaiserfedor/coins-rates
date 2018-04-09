@@ -1,0 +1,61 @@
+.Rate {
+    display: flex;
+    min-width: 360px;
+    min-height: 50px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.Rate:hover {
+    border-radius: 10px;
+    background-color: #f3f6fb;
+}
+
+.Rate-index {
+    width: 15%;
+    color: #6a8098;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.Rate-title {
+    width: 45%;
+    text-align: left;
+    color: #6a8098;
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.Rate-title-icon {
+    width: 30px;
+}
+
+.Rate-change {
+    width: 20%;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+.Rate-change-icon {
+    margin-right: 5px;
+}
+
+.Rate-change_positive {
+    color: #469c47;
+}
+
+.Rate-change_negative {
+    color: #fe4345
+}
+
+.Rate-price {
+    width: 20%;
+    justify-content: flex-end;
+    min-width: 100px;
+    padding-right: 12px;
+}
+
+.Rate-index, .Rate-title, .Rate-change, .Rate-price {
+    display: flex;
+    align-items: center;
+}

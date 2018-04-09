@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  max-width: 312px;
+}
+
+.App-header {
+  padding: 160px 20px;
+}
+
+.App-popular {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 330px;
+  margin: 0 auto 50px;
+}
+
+.App-popular-time, .App-popular-currency {
+  color: #8e9eb2
+}
