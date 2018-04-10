@@ -3,3 +3,48 @@
     flex-direction: column;
     align-items: center;
 }
+
+.Rates-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 360px;
+    margin: 0 auto 50px;
+}
+
+.Rates-header-title {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rates-header-title > img {
+    margin-left: 15px;
+}
+
+.Rates-header-time {
+    width: 20%;
+}
+
+.Rates-header-currency {
+    width: 20%;
+    min-width: 100px;
+    padding-right: 12px;
+}
+
+.Rates-header-time, .Rates-header-currency {
+    color: #8e9eb2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 414px) {
+    .Rates-header {
+        min-width: 320px;
+    }
+
+    .Rates-header-currency {
+        min-width: 80px;
+    }
+}

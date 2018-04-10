@@ -23,7 +23,6 @@
     text-align: left;
     color: #6a8098;
     font-size: 16px;
-    padding-left: 25px;
 }
 
 .Rate-title-icon {
@@ -58,4 +57,14 @@
 .Rate-index, .Rate-title, .Rate-change, .Rate-price {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 414px) {
+    .Rate {
+        min-width: 320px;
+    }
+
+    .Rate-price {
+        min-width: 80px;
+    }
 }

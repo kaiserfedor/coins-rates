@@ -1,13 +1,13 @@
-import BTC from './bitcoin-cach.svg';
-import ETH from './bitcoin.svg';
-import XRP from './eos.svg';
-import BCH from './ethereum.svg';
+import BCH from './bitcoin-cach.svg';
+import BTC from './bitcoin.svg';
+import EOS from './eos.svg';
+import ETH from './ethereum.svg';
 import LTC from './litecoin.svg';
-import ADA from './monero.svg';
+import XMR from './monero.svg';
 import NEO from './neo.svg';
-import XLM from './ripple.svg';
-import EOS from './stellar.svg';
-import XMR from './stellar.svg';
+import XRP from './ripple.svg';
+import XLM from './stellar.svg';
+import ADA from './cardano.png';
 
 export const coinsIcons = {
   BTC,
